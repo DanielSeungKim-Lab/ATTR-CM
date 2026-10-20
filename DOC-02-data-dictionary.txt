@@ -1,0 +1,28 @@
+DATA-01-trial-race-counts.csv   one row per trial
+  trial, nct_id                  trial name and ClinicalTrials.gov identifier
+  black ... other_or_not_reported  participants in each reported race category
+  race_reported_total            sum of the race categories, as reported
+  enrollment_randomized          randomized participants; exceeds race_reported_total where
+                                 a participant has no race record or was not dosed
+  race_source                    where the counts were read
+
+DATA-02-benchmark-inputs.csv   one row per quantity
+  key                            identifier used by the scripts
+  value, unit                    the quantity and what it counts
+  source                         the publication or data product it was read from
+
+DATA-03-site-counties.csv   one row per trial and county
+  nct_id, trial                  the trial whose sites fall in this county
+  county_fips, county_name       5-digit FIPS code and name
+  n_sites                        that trial's sites in this county
+  black_alone_75plus,
+  white_alone_75plus             county population aged 75 and over
+  A county hosting sites in more than one trial appears once per trial.
+
+DATA-04-landmark-disposition.csv   one row per landmark trial
+  nct_id, acronym, phase, enrollment, pheno   registry fields; pheno is CM for a
+                                 cardiomyopathy population and mixed where polyneuropathy
+                                 is also enrolled
+  tier                           A pivotal, B1 randomized phase 2, B2 open-label extension
+  race_reported                  whether race was retrievable
+  disposition                    how the trial was used

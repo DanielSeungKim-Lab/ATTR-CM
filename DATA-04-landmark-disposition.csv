@@ -1,0 +1,24 @@
+nct_id,acronym,phase,enrollment,tier,pheno,race_reported,disposition
+NCT00294671,,PHASE2/PHASE3,130.0,A,mixed,True,excluded from pooling (mixed cardiomyopathy and polyneuropathy phenotype)
+NCT01994889,ATTR-ACT,PHASE3,441.0,A,CM,True,pooled (primary analysis)
+NCT02319005,,PHASE3,206.0,A,CM,True,analyzed separately (carrier-restricted)
+NCT03481972,,PHASE3,102.0,A,CM,False,no race reported in the registry or primary report
+NCT03860935,ATTRibute-CM,PHASE3,632.0,A,CM,True,pooled (primary analysis)
+NCT03997383,,PHASE3,360.0,A,CM,True,pooled (primary analysis)
+NCT04136171,,PHASE3,1438.0,A,CM,True,pooled (primary analysis)
+NCT04153149,,PHASE3,655.0,A,CM,True,pooled (primary analysis)
+NCT06128629,,PHASE3,1200.0,A,CM,False,no race reported in the registry or primary report
+NCT06183931,DepleTTR-CM,PHASE3,1181.0,A,CM,False,no race reported in the registry or primary report
+NCT07052903,,PHASE3,1750.0,A,CM,False,no race reported in the registry or primary report
+NCT07207811,CLEOPATTRA,PHASE3,1280.0,A,CM,False,no race reported in the registry or primary report
+NCT05442047,,PHASE2,105.0,B1,CM,False,no race reported in the registry or primary report
+NCT07608354,ATTRiumph,PHASE2,326.0,B1,CM,False,no race reported in the registry or primary report
+NCT02510261,,PHASE3,211.0,B2,mixed,True,excluded from pooling (open-label extension)
+NCT02791230,,PHASE3,1733.0,B2,CM,True,excluded from pooling (open-label extension)
+NCT04988386,AG10,PHASE3,389.0,B2,CM,False,no race reported in the registry or primary report
+NCT05667493,,PHASE3,1400.0,B2,CM,False,no race reported in the registry or primary report
+NCT06679946,,PHASE3,700.0,B2,CM,False,no race reported in the registry or primary report
+NCT07116473,,PHASE3,250.0,B2,mixed,False,no race reported in the registry or primary report
+NCT07306949,ATTR-CM,PHASE4,200.0,B2,CM,False,no race reported in the registry or primary report
+NCT07695701,ASCEND-ATTR,PHASE4,150.0,B2,CM,False,no race reported in the registry or primary report
+NCT07789483,LTSAFE-ALXN,PHASE3,1180.0,B2,CM,False,no race reported in the registry or primary report
